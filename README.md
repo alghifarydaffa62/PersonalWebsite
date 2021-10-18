@@ -1,0 +1,6 @@
+M Daffa Al Ghifary's personal website
+
+HI, Iam Daffa Al Ghifary
+student of SMAN 1 Sidoarjo
+
+HOPE MY WEBSITE, MAKE YOU KNOW ME BETTER
