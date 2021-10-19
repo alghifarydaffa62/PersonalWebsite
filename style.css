@@ -30,4 +30,10 @@ body {
 .col p {
     text-align: justify;
 }
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 230px;
+}
 
