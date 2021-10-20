@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(180deg, #7792f3 0%, rgba(221, 41, 41, 0.83) 100%);
+}
+.navbar-brand {
+  font-family: "Merienda", cursive;
+  font-size: 21px;
+}
+#navbarNav {
+  font-family: "Montserrat";
+}

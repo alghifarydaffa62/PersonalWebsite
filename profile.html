@@ -19,7 +19,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-none">
       <div class="container">
-        <a class="navbar-brand" href="#">Muhammad Daffa Al Ghifary</a>
+        <a class="navbar-brand" href="index.html">Muhammad Daffa Al Ghifary</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,7 +35,7 @@
               <a class="nav-link active" aria-current="page" href="project.html">Project</a>
             </li>
             <li class="nav-item">
-              <button type="button" class="btn btn-light rounded-pill" href="">contact</button>
+              <a class="btn btn-light rounded-pill text-dark" href="contact.html" role="button">Contact</a>
             </li>
           </ul>
         </div>
@@ -43,26 +43,24 @@
     </nav>
     <!-- end of navbar -->
 
-    <!-- end of jumbotron -->
-
     <!-- about section -->
     <section>
       <div class="container">
+          <h1 class="text-center text-white pt-5">About Me</h1>
+      
         <div class="row">
-          <div class="col. text-center pt-5">
-            <h1>About</h1>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <img src="image/profile pic.jpg" style="width: 300px; height: 300px;" class="rounded-circle border border-dark"/>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-6"></div>
-          <div class="col">
-            <img src="image/levi ackerman.png" />
-            <h1>HI There, Nice to see you guys !</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa officiis ab molestias ullam laudantium ea incidunt necessitatibus, optio tenetur, deserunt alias error cumque totam illum</p>
+          <div class="col-6 ">
+            <h1 class="fs-4 mt-5 ">HI There, Nice to see you guys !</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Culpa officiis ab molestias ullam laudantium ea incidunt <br> necessitatibus, optio tenetur, deserunt alias error cumque totam illum</p>
           </div>
+          <div class="col-1"></div>
           <div class="row">
             <div class="col-5" style="padding-top: 50px">
-              <div class="accordion open" id="accordionExample">
+              <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
@@ -100,6 +98,9 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col-6 ms-5">
+              <img src="image/profile pic.jpg" style="width: 300px; height: 300px;" class="rounded-circle border border-dark"/>
             </div>
           </div>
         </div>
@@ -184,26 +185,69 @@
     <!-- My Activities section -->
     <section class="activities">
       <h1 class="text-center text-white fs-2 pt-5">My Daily Activities</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-6 text-center" style="background: none;">
-            <img src="image/homework.png" alt="" style="width: 90px; height: 90px; float: right;">
-            <h1>finishing Home work</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Sequi itaque voluptatem aperiam, corporis quo animi! <br> Nulla non cupiditate quod laudantium pariatur <br> laboriosam vel ea ullam quo tempore. Repudiandae, distinctio magnam!</p></div>
-          <div class="col-6 text-center">
-            <img src="image/sekolah.png" alt="">
-            <h1>Schooling</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ut accusantium autem tempora vero, iste, consequuntur <br> commodi deserunt odit error nulla tempore.<br> Voluptates ex porro illum et alias, unde quae? Sequi!</p>
+      
+      <div class="container mt-5">
+        <div class="row rounded-3">
+          <div class="col-4">
+            <div class="card bg-info bg-gradient" style="width: 18rem;">
+              <img src="image/animation.png" class="card-img-top mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="text-center">Watching Anime</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-info bg-gradient" style="width: 18rem;">
+              <img src="image/homework.png" class="card-img-top mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="text-center">Finishing Home Work</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-info bg-gradient" style="width: 18rem;">
+              <img src="image/sekolah.png" class="card-img-top mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="text-center">Schooling</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
-            <h1>Coding</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit perferendis eaque, aperiam ad impedit incidunt, ut dolores voluptatem, exercitationem at dignissimos aliquid voluptate. Perferendis sit culpa et at sapiente debitis?</p>
-            <img src="image/coding.png" alt="" style="float: right;">
+        <div class="row mt-5">
+          <div class="col-4">
+            <div class="card bg-info bg-gradient" style="width: 18rem">
+              <img src="image/coding.png" class="card-img-top mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="text-center">Coding</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-info bg-gradient" style="width: 18rem;">
+              <img src="image/book.png" class="card-img-top mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="text-center">Studying</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-info bg-gradient" style="width: 18rem;">
+              <img src="image/pray.png" class="card-img-top mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5>Praying</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
+     
     </section>
   
     <!-- end of my activities section -->

@@ -5,6 +5,7 @@
 body {
   background: linear-gradient(180deg, #7792f3 0%, rgba(221, 41, 41, 0.83) 100%);
 }
+
 .navbar-brand {
   font-family: "Merienda", cursive;
   font-size: 21px;
@@ -17,7 +18,7 @@ body {
 .col {
   width: 732px;
   height: 252px;
-  background: linear-gradient(180deg, #7EF8E2 0%, rgba(70, 173, 248, 0.81) 100%);
+  background: linear-gradient(180deg, #7ef8e2 0%, rgba(70, 173, 248, 0.81) 100%);
   border-radius: 7px;
 }
 .col img {
@@ -43,9 +44,13 @@ body {
   color: black;
 }
 .col-6 p {
-    text-align: justify;
+  text-align: justify;
 }
 .col h1 {
-    font-size: 25px;
-    font-family: "Montserrat";
+  font-size: 25px;
+  font-family: "Montserrat";
+}
+.card img {
+  width: 103px;
+  height: 95px;
 }
